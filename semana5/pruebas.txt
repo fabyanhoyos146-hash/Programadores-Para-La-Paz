@@ -1,0 +1,5 @@
+Ruta http://localhost:3000 -> El navegador muestra el texto plano "Servidor activo". Corresponde a la respuesta del endpoint raíz mediante una petición de lectura GET.
+
+Ruta http://localhost:3000/saludo -> El navegador muestra en pantalla el texto "Hola comunidad", demostrando que el servidor web puede segmentar respuestas de acuerdo con diferentes rutas estáticas.
+
+Ruta http://localhost:3000/mensaje/juan -> El navegador procesa la URL dinámicamente y muestra el mensaje personalizado "Hola juan". Esto comprueba la capacidad de capturar y reutilizar variables en tiempo real desde los parámetros de la dirección (req.params).
