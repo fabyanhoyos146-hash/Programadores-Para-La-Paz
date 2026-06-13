@@ -1,0 +1,9 @@
+Cuando se realiza una petición HTTP de tipo POST a la dirección http://localhost:3000/registro enviando un JSON con "nombre" y "mensaje", el servidor devuelve la siguiente respuesta estructurada:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Esto ocurre porque el middleware 'express.json()' intercepta la petición, lee el cuerpo del mensaje y permite que 'req.body' extraiga los valores de manera limpia para devolverlos en formato JSON de vuelta al cliente.
