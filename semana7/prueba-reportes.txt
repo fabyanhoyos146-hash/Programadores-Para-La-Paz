@@ -1,0 +1,7 @@
+Cuando se consulta la ruta GET http://localhost:3000/reportes por primera vez, el servidor devuelve un array vacío: []
+
+Esto ocurre porque el array de reportes en 'server.js' se inicializa vacío en la memoria RAM.
+
+Sin embargo, tras enviar una petición POST a esa misma dirección con un formato JSON adecuado, el servidor almacena el objeto en memoria y le asigna un ID único (por ejemplo: id: 1). Al volver a realizar la consulta GET, el servidor ya no devuelve la lista vacía, sino que muestra de forma estructurada todos los reportes comunitarios que se han registrado desde que se encendió el servidor.
+
+Es importante destacar que, al no contar con una base de datos persistente, si el servidor se apaga (Ctrl + C) y se vuelve a encender, la memoria se limpia y el array regresará a su estado inicial vacío.
