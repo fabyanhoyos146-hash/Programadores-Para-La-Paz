@@ -1,0 +1,16 @@
+Componentes del Entorno Servidor:
+
+1. Sistema operativo:
+Es la base de software (como Linux, Windows Server o macOS) que administra directamente el hardware de la máquina, gestiona los recursos de memoria/procesador y provee el entorno fundamental de ejecución donde se levanta Node.js.
+
+2. Node.js:
+Es el entorno de ejecución de JavaScript en el lado del servidor, construido sobre el motor V8 de Google. Permite ejecutar código de backend de manera asíncrona, orientada a eventos y altamente eficiente para responder solicitudes de red.
+
+3. Aplicación server.js:
+Es el archivo de código fuente principal que contiene la lógica de nuestro backend. En este documento se configuran las dependencias, se definen los puntos de acceso o endpoints (rutas) de la aplicación y se define el puerto de red.
+
+4. Puerto:
+Es una interfaz lógica o canal de comunicación específico (en este caso el puerto 3000) que el sistema operativo asigna a una aplicación de red para que pueda recibir y enviar datos sin interferir con otros programas que se ejecutan en el sistema.
+
+5. Logs:
+Son archivos de registro secuenciales que almacenan de manera cronológica los eventos, solicitudes, accesos y errores del servidor. Son la herramienta fundamental para auditoría de seguridad y depuración rápida cuando la plataforma falla.

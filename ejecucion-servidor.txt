@@ -1,0 +1,13 @@
+Análisis de Ejecución del Servidor Node.js:
+
+1. ¿Qué ocurre cuando ejecutas 'node server.js'?
+Al ejecutar este comando, el motor de tiempo de ejecución de Node.js interpreta nuestro archivo de código 'server.js', inicializa la aplicación de Express, asigna el puerto lógico 3000 y levanta un proceso activo en segundo plano que se mantiene a la escucha de peticiones entrantes.
+
+2. ¿Qué mensaje aparece en la terminal?
+Aparece el mensaje de confirmación programado en el callback del listener: "Servidor ejecutándose en puerto 3000". Esto nos indica que el servidor se levantó correctamente y no hubo conflictos de sintaxis o de asignación de puertos en la máquina local.
+
+3. ¿Qué sucede cuando visitas la ruta '/estado'?
+Cuando ingresamos en el navegador a la dirección 'http://localhost:3000/estado', el cliente (el navegador) envía una solicitud HTTP con método GET al servidor. Express mapea la URL solicitada, ejecuta la función asociada a esa ruta y devuelve una respuesta estructurada en formato JSON con dos propiedades clave:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria
