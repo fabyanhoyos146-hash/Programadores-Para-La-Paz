@@ -1,0 +1,3 @@
+Set-Content buenas-practicas.txt "1. Proteger contraseñas."
+Add-Content buenas-practicas.txt "2. No compartir credenciales."
+Add-Content buenas-practicas.txt "3. Mantener software actualizado."

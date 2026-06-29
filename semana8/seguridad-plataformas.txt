@@ -1,0 +1,7 @@
+Medidas de Seguridad para Plataformas Digitales Comunitarias:
+
+1. No exponer datos personales: Ocultar información privada como números de teléfono, direcciones exactas de casa o cédulas de los reportantes para evitar posibles represalias o acoso en el territorio.
+2. Proteger credenciales: Utilizar contraseñas seguras y nunca guardarlas en texto plano. Hacer uso de variables de entorno (.env) para guardar llaves de APIs o contraseñas del servidor, manteniéndolas fuera de repositorios públicos mediante el uso de .gitignore.
+3. Usar conexiones seguras: Implementar certificados SSL (HTTPS) para cifrar los datos que viajan entre los navegadores de los vecinos y el servidor, impidiendo la interceptación de información.
+4. Registrar accesos (Logs): Mantener un historial confidencial del servidor que registre qué usuarios inician sesión o hacen cambios críticos para detectar comportamientos inusuales de forma oportuna.
+5. Limitar acceso a información sensible: Establecer niveles de rol (ej. vecino visitante, administrador verificado) para asegurar que solo las personas autorizadas de la veeduría puedan gestionar los reportes críticos o bases de datos de la comunidad.

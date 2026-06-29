@@ -1,0 +1,10 @@
+Análisis de Comandos del Sistema:
+
+1. Comando 'uname -a':
+Muestra toda la información de la arquitectura y del kernel del sistema operativo en el que se ejecuta el servidor. Incluye el nombre del sistema (ej. Linux), el nombre de host, la versión de lanzamiento del kernel, la fecha de compilación y la arquitectura del hardware (ej. x86_64, aarch64).
+
+2. Comando 'whoami':
+Muestra en pantalla el nombre del usuario activo que está ejecutando la sesión de terminal en ese instante.
+
+¿Por qué es útil conocer esta información al administrar un servidor?
+Es fundamental porque nos permite comprobar la compatibilidad del sistema con paquetes, librerías o dependencias antes de instalarlas. También permite verificar si el usuario tiene privilegios de administrador (root) antes de ejecutar comandos sensibles del sistema y ayuda a documentar de forma clara el entorno de producción para prevenir fallas de seguridad o de arquitectura.
