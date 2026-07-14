@@ -1,0 +1,14 @@
+DISEÑO DE FLUJO DE AUTOMATIZACIÓN (n8n + Telegram)
+
+¿Qué evento activa el flujo?
+La inserción o registro de un nuevo reporte de obra pública en el sistema (detectado mediante un nodo Webhook de n8n o un disparador de base de datos).
+
+¿Qué mensaje se enviaría a Telegram?
+"NUEVO REPORTE DE VEEDURÍA REGISTRADO: Se ha creado el caso#1024 referente a infraestructura vial. Por favor, asigne un veedor para verificar el estado de avance en el sistema de control."
+
+¿Qué información no debería enviarse por seguridad?
+Por políticas de seguridad y protección de datos, queda estrictamente prohibido enviar en el mensaje de Telegram:
+- Nombres completos o apellidos de la persona que realiza el reporte.
+- Documentos de identidad (Cédula, NIT, etc.).
+- Direcciones exactas de domicilios particulares, números de teléfono o correos electrónicos personales.
+- Credenciales, tokens, contraseñas o datos de bases de datos internas.

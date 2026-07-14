@@ -1,0 +1,11 @@
+HISTORIAS DE USUARIO - PLATAFORMA DE VEEDURÍA CIUDADANA
+
+[Prioridad Alta]
+1. Como ciudadano, quiero registrar un reporte o incidencia sobre una obra pública inconclusa en mi municipio para dejar evidencia pública del caso.
+2. Como veedor comunitario, quiero recibir una notificación automática en Telegram cuando ocurra un nuevo reporte para iniciar el seguimiento de forma oportuna.
+
+[Prioridad Media]
+3. Como miembro de la comunidad, quiero consultar la lista de reportes activos en un mapa o listado para conocer el estado de los proyectos en mi comuna o sector.
+
+[Prioridad Baja]
+4. Como administrador del sistema, quiero exportar un reporte de resumen mensual en formato PDF para presentarlo de manera formal en las audiencias de rendición de cuentas.

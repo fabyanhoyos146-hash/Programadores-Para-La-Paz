@@ -1,0 +1,14 @@
+PLANIFICACIÓN DE LA ITERACIÓN
+
+¿Qué 2 tareas del backlog harías primero?
+1. El registro del reporte o incidencia por parte del ciudadano.
+2. El envío de la notificación automática al canal de Telegram para los veedores.
+
+¿Por qué son las más importantes?
+Porque constituyen el Producto Mínimo Viable (MVP). Sin el registro del ciudadano no existe información base que procesar, y sin la notificación inmediata al canal de veedores se pierde el sentido de la comunicación activa y oportuna. Estas dos tareas resuelven el problema central de la plataforma.
+
+Definición de Terminado (Definition of Done - DoD):
+Para que yo considere que una tarea está "terminada", debe cumplir de forma estricta con los siguientes 3 criterios:
+1. Funcionalidad activa: El código corre localmente sin errores en la consola y el endpoint responde correctamente al cliente.
+2. Validación de datos: Se ha verificado que la información del reporte se guarda de forma correcta en el sistema de almacenamiento.
+3. Git y Seguridad: El código está guardado en un commit limpio de Git y se ha verificado que el archivo .env no se subirá al repositorio público.
