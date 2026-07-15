@@ -1,0 +1,24 @@
+MODELO DE DATOS - PLATAFORMA DE CAUSAS COMUNITARIAS
+
+Entidad 1: Causa
+Campos principales:
+- id (Entero, Clave Primaria)
+- titulo (Texto corto)
+- descripcion (Texto largo)
+- lider_comunal (Texto corto)
+- fecha_creacion (Fecha)
+
+Propósito:
+Guardar el registro de las diferentes iniciativas, proyectos u obras prioritarias propuestas por los líderes del municipio que serán visibles públicamente en la plataforma para recibir apoyo social.
+
+--------------------------------------------------
+
+Entidad 2: Apoyo
+Campos principales:
+- id (Entero, Clave Primaria)
+- causa_id (Entero, Clave Foránea referenciando a Causa.id)
+- usuario_id (Entero, Identificador de usuario registrado)
+- fecha_apoyo (Fecha y Hora)
+
+Propósito:
+Registrar los apoyos ciudadanos que recibe cada causa comunitaria, asegurando la trazabilidad de la participación y limitando técnicamente que un usuario registrado vote o apoye más de una vez la misma iniciativa.

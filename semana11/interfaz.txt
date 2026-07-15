@@ -1,0 +1,13 @@
+DISEÑO DE LA INTERFAZ BÁSICA
+
+La interfaz de usuario de nuestra plataforma se diseñará bajo una estructura limpia, clara y responsive, distribuida en las siguientes secciones:
+
+1. Formulario de Creación: Una sección privada (accesible solo tras iniciar sesión) que contendrá un formulario web simple con campos de texto para definir el título, la descripción de la causa comunitaria y la fecha de registro.
+
+2. Vista de Causas Disponibles: Un listado o tablero público donde cualquier ciudadano puede visualizar las tarjetas informativas de cada causa activa en el municipio de forma clara.
+
+3. Botón para Apoyar una Causa: Cada tarjeta informativa de causa contará con un botón de acción destacado etiquetado como "Apoyar Causa", visible para los usuarios autenticados.
+
+4. Contador de Apoyos: Justo al lado del botón de acción, se visualizará un contador numérico que se actualizará en tiempo real para mostrar la cantidad total de respaldos acumulados por la iniciativa.
+
+Nota de Privacidad: La interfaz omitirá cualquier dato de carácter personal de los votantes, mostrando únicamente estadísticas cuantitativas agregadas para proteger la confidencialidad de la comunidad.

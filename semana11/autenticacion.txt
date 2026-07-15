@@ -1,0 +1,7 @@
+CONCEPTOS DE AUTENTICACIÓN Y SEGURIDAD
+
+El login es el proceso mediante el cual un usuario introduce sus credenciales (como un correo y una contraseña previamente cifrada) para validar su identidad ante el servidor y obtener una sesión activa o token de acceso. 
+
+En nuestra plataforma, ciertas rutas de la aplicación deben estar protegidas de manera obligatoria (por ejemplo, el panel de creación de causas o la aprobación de presupuestos) porque permiten modificar información del sistema o realizar acciones administrativas que no deben estar al alcance de cualquier visitante anónimo. 
+
+Para resguardar la integridad y privacidad del tejido social, bajo ninguna circunstancia se debe exponer públicamente información confidencial como contraseñas en texto plano, números de cédula, direcciones físicas de residencia, números de teléfono celular de los denunciantes, tokens de acceso o claves de API del servidor.
