@@ -1,0 +1,13 @@
+==================================================
+            FLUJO DE AUTOMATIZACIÓN
+==================================================
+
+1. Evento desencadenante (Trigger):
+   - Registro exitoso de un nuevo apoyo a una causa específica en la base de datos.
+
+2. Acción y Mensaje enviado:
+   - Envío de una notificación automática mediante un bot a nuestro canal de Telegram de la comunidad:
+     "📢 ¡Tenemos un nuevo respaldo! La causa '[Título_Causa]' ha sumado un nuevo apoyo digital. ¡La unión hace la fuerza! 💪"
+
+3. Medidas de seguridad (Información que NO debe enviarse):
+   - Por estricta protección de la privacidad, no se deben enviar datos personales sensibles como números de cédula, direcciones físicas, teléfonos, correos electrónicos o comentarios privados de los firmantes. El bot solo debe transmitir métricas generales y de carácter público.

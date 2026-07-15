@@ -1,0 +1,26 @@
+==================================================
+           MODELO DE DATOS DE LA PLATAFORMA
+==================================================
+
+### ENTIDAD 1: Causa
+--------------------------------------------------
+Campos:
+  - id: Entero (Llave primaria autoincremental)
+  - titulo: Texto (Nombre descriptivo de la solicitud o problemática)
+  - descripcion: Texto largo (Argumentación de la petición)
+  - fecha_creacion: Fecha/Hora (Momento en que se crea la causa)
+
+Propósito:
+Sirve para almacenar y caracterizar las peticiones o iniciativas comunitarias que buscan firmas. Es la entidad base del sistema.
+
+
+### ENTIDAD 2: Apoyo
+--------------------------------------------------
+Campos:
+  - id: Entero (Llave primaria autoincremental)
+  - causa_id: Entero (Llave foránea que asocia este apoyo con una Causa específica)
+  - nombre: Texto (Nombre del ciudadano que apoya para validez del documento)
+  - fecha_apoyo: Fecha/Hora (Momento en el que el ciudadano firma la petición)
+
+Propósito:
+Sirve para registrar y contabilizar cada respaldo de manera individualizada, asociándolo directamente a una causa mediante la relación causa_id.

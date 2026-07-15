@@ -1,0 +1,9 @@
+==================================================
+           FLUJO DEL SISTEMA: PETICIÓN EN 3 CLICS
+==================================================
+
+1. Inicio de la Causa: Un ciudadano o líder comunitario ingresa a la plataforma y registra una nueva causa o petición detallando una problemática colectiva.
+2. Almacenamiento Seguro: La causa es guardada de forma automática en la base de datos y se le asigna un identificador único para que la comunidad pueda consultarla.
+3. Registro de Apoyos: Los ciudadanos interesados acceden al enlace público de la causa y registran su apoyo de manera digital con datos mínimos de validación.
+4. Conexión de Datos: El sistema registra cada firma, las asocia directamente a la causa correspondiente en la base de datos y actualiza el contador de apoyos.
+5. Generación del Documento: Una vez cumplida la meta de firmas o el plazo establecido, el sistema genera automáticamente un documento formal en formato PDF (derecho de petición) con toda la información consolidada para su radicación oficial.
